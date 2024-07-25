@@ -16,7 +16,6 @@
   - `FinalModel_state_dict.pth`: 최종 훈련된 PyTorch 모델의 상태 사전 파일.
   - `insurance_model_pickle.pkl`: 보험 예측 모델의 직렬화된 파일.
   - `xgboost_model_json.json`: XGBoost 모델의 세부 정보를 포함한 JSON 파일.
-  - `xgboost_model_pickle.pkl`: XGBoost 모델의 직렬화된 파일.
 
 - **노트북**
   - `머신러닝_xgboost.ipynb`: XGBoost 모델의 훈련 및 평가를 위한 Jupyter 노트북.
@@ -25,10 +24,12 @@
 
 - **데이터**
   - `submission_file.csv`: 최종 제출 파일.
+  - `test.csv`: kaggle 원본 데이터 파일.
   - `test_X.csv`: 테스트 데이터 (전처리 후).
   - `test_X_original.csv`: 테스트 데이터 (원본).
   - `test_y.csv`: 테스트 라벨 (전처리 후).
   - `test_y_original.csv`: 테스트 라벨 (원본).
+  - `train_X.csv`: 훈련 데이터 (전처리 후).
   - `train_X_original.csv`: 훈련 데이터 (원본).
   - `train_y.csv`: 훈련 라벨 (전처리 후).
   - `train_y_original.csv`: 훈련 라벨 (원본).
@@ -54,7 +55,6 @@
 - **`FinalModel_state_dict.pth`**: PyTorch를 사용하여 훈련된 최종 모델의 상태 사전입니다. 이 파일은 모델의 가중치와 바이어스를 저장하고 있으며, 추론 시 로드하여 사용할 수 있습니다.
 - **`insurance_model_pickle.pkl`**: 보험 예측 모델의 직렬화된 파일입니다. 이 파일은 모델을 직렬화하여 저장하고, 필요 시 역직렬화하여 사용할 수 있습니다.
 - **`xgboost_model_json.json`**: XGBoost 모델의 세부 정보를 포함한 JSON 파일입니다. 이 파일은 모델의 구조, 파라미터 및 성능 지표를 포함하고 있습니다.
-- **`xgboost_model_pickle.pkl`**: XGBoost 모델의 직렬화된 파일입니다. 이 파일은 모델을 직렬화하여 저장하고, 필요 시 역직렬화하여 사용할 수 있습니다.
 
 ### 노트북 파일
 - **`머신러닝_xgboost.ipynb`**: 이 Jupyter 노트북은 XGBoost 모델의 훈련 및 평가 과정을 설명합니다. 데이터 로드, 전처리, 모델 훈련 및 성능 평가에 대한 단계별 설명이 포함되어 있습니다.
@@ -79,7 +79,6 @@
 - **`main2.py`**: API 배포를 위한 메인 스크립트 (버전 2)로, Flask 등을 이용하여 API 서버를 실행하는 코드를 포함하고 있습니다.
 - **`main3.py`**: API 배포를 위한 메인 스크립트 (버전 3)로, `main2.py`의 개선된 버전입니다.
 - **`requests.py`**: API 요청을 테스트하기 위한 스크립트로, HTTP 요청을 보내고 응답을 확인하는 기능을 포함하고 있습니다.
-- **`scaler.pkl`**: 데이터 스케일링을 위한 피클 파일로, 학습된 스케일러 객체를 저장하고 있습니다.
 
 ### __pycache__ 폴더 파일
 - **`main.cpython-312.pyc`**: `main.py`의 컴파일된 파이썬 바이트코드 파일입니다.
