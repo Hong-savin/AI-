@@ -38,8 +38,7 @@
   - `dataset.py`: 데이터셋 로딩 및 처리 관련 스크립트.
   - `main2.py`: API 배포를 위한 메인 스크립트 (버전 2).
   - `main3.py`: API 배포를 위한 메인 스크립트 (버전 3).
-  - `requests.py`: API 요청을 테스트하기 위한 스크립트.
-  - `scaler.pkl`: 데이터 스케일링을 위한 피클 파일.
+  - `requests.py`: API 요청을 테스트하기 위한 스크립트
 
 - **__pycache__**
   - `main.cpython-312.pyc`: `main.py`의 컴파일된 파이썬 바이트코드 파일.
