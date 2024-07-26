@@ -8,6 +8,8 @@
 
 이 레포지토리에는 보험 예측을 위해 개발된 다양한 머신러닝 모델과 관련 파일이 포함되어 있습니다. 프로젝트는 XGBoost 및 PyTorch와 같은 다양한 기법을 사용하여 구축된 모델과 전처리 및 훈련 과정을 상세히 설명하는 Jupyter 노트북을 포함합니다. 또한, API 배포를 위한 스크립트와 데이터 전처리 코드도 포함되어 있습니다.
 
+캐글의 https://www.kaggle.com/competitions/playground-series-s4e7/overview 데이터를 이용하였습니다.
+
 ---
 
 ## 레포지토리 구조
